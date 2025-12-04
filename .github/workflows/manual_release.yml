@@ -22,7 +22,7 @@ on:
         default: "false"
   push:
     branches:
-      - "master"
+      - "v23.05.3"
     paths:
       - "luci-theme-argon/Makefile"
 env:

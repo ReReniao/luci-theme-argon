@@ -14,11 +14,11 @@ on:
 env:
   # 1. 设置你要编译的软件包名称 (必须与你的软件包目录名相同)
   #    例如: luci-app-adguardhome, v2ray-core, kmod-wireguard 等
-  PACKAGE_NAME: luci-app-argone-config
+  PACKAGE_NAME: luci-theme-argon
 
   # 2. 设置要编译的 OpenWrt 版本 (必须是官方的正式发布版标签, 例如 'v23.05.3')
   #    注意：此方法不支持 'master' 或 'openwrt-23.05' 等分支名
-  OPENWRT_VERSION: 'v23.05.3'
+  OPENWRT_VERSION: 'v24.10.4'
 
   # 3. 指定SDK保存目录，一般不用修改
   SDK_DIR: /home/runner/work/openwrt-sdk
